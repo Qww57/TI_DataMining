@@ -128,7 +128,7 @@ The list of implemented algorithms is as following:
 
 **Description:** Statistical approach based on the assumption that objects in the data set are generated from a normal distribution. The algorithm computes then the z-score of each points, a metric to compute its deviation from the data set. The z-score is then compared to the student distribution at a significance level of alpha / 2*n.
 
-**State:** Implemented and tested.
+**State:** Implemented and tested. --TODO: Create as library not as program
 
 ### Detection of multivariate outliers with Mahalaobis distance
 
@@ -136,15 +136,15 @@ The list of implemented algorithms is as following:
 
 **Description:** Adaptation of the grub test for outlier detection on multivariate elements by using the Mahalaonis distance.
 
-**State:** TODO
+**State:** Implemented. Should be tested.
 
 ### Detection of multivariate outliers with x²-statistic
 
-**Function:** 
+**Function:** outlier_x2(points[n, m])
 
 **Description:** Algorithm computing the x² distance of each points to other points in the data set and returning the ones with large values as outliers. 
 
-**State:** TODO
+**State:** Implemented and tested.
 
 ### Nestedloop algorithm
 
